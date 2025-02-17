@@ -10,12 +10,14 @@
 /* uneversal styles */
 *{
     /* max-width: 1440px;
-    width: 100%;
-    text-decoration: none; */
+    width: 100%; */
+    /* text-decoration: none; */
     color: black;
     /* font-size: 16px; */
     font-family: "Open Sans", serif;
 }
+
+
 
 /* shared style */
 .text-primary{
@@ -40,7 +42,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 37.5px 150px;
+    padding: 37.5px 172.5px 0 169.5px;
 
 }
 .nav-title{
@@ -64,4 +66,44 @@ nav a{
     text-decoration: none;
 }
 
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%, auto 65%;
+    background-position: top left, bottom right;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 28.5px 0 172.5px;
+}
+
+.banner-connent{
+    max-width: 438.75px;
+    
+}
+
+.hi-i{
+    font-size: 33.75px;
+    font-weight: 600;
+    margin-bottom: 3.75px;
+}
+
+.banner-title{
+    font-size: 63.75px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#pp{
+    margin-bottom: 22.5px;
+}
+
+.banner-profile-pic{
+    width: 438px;
+    height: 507px;
+    margin: 62.25px 131.25px 58.5px 0;
+}
 
