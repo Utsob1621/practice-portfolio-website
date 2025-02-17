@@ -24,8 +24,16 @@
     color: #FD6E0A;
 }
 
+.dark-1{
+    color: #181818;
+}
+
 .dark-2{
     color: #474747;
+}
+
+.pg-color{
+    color: #757575;
 }
 
 .btn-primary{
@@ -37,6 +45,19 @@
     border: none;
     border-radius: 5px;
 }
+
+.about-title{
+    font-size: 26.25px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.about-description{
+    font-size: 13.5px;
+    font-weight: 400;
+    color: #757575;
+}
+/* universa style */
 
 /* nav style */
 nav{
@@ -99,6 +120,7 @@ nav a{
 
 #pp{
     margin-bottom: 22.5px;
+    color: #757575;
 }
 
 .banner-profile-pic{
@@ -107,3 +129,52 @@ nav a{
     margin: 62.25px 131.25px 58.5px 0;
 }
 
+/* main style */
+main{
+    max-width: 855px;
+    margin: 0 auto;
+    margin-top: 97.5px;
+    background-color: #FFF8F3;
+}
+
+/* about style */
+
+.about-title{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.about-description{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
+.about-br{
+    border-bottom: 1px solid black;
+    background-color: #FFFFFF;
+}
+/* border style */
+
+.about{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 98.25px 117.5px;
+    align-items: center;
+
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+.item-description{
+    font-size: 15px;
+    font-weight: 700;
+    color: #757575;
+}
