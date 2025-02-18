@@ -252,3 +252,48 @@ nav a{
     text-align: center;
     margin-top: 37.5px;
 }
+/* footer section style */
+
+.footer-section input[type="Your name"], input[type="email"]{
+    padding: 13.5px 0 13.5px 22.5px;
+    height: 48px;
+    border-radius: 3.75px;
+    background-color: white;
+    border: white;
+    width: 100%;
+}
+
+.footer-section textarea[name="message"]{
+    padding: 13.5px 0 13.5px 22.5px;
+    height: 90px;
+    border-radius: 3.75px;
+    background-color: white;
+    border: white;
+    width: 100%;
+}
+
+.footer-section{
+    padding: 97.5px 172.5px 97.5px 172.5px;
+    display: flex;
+    gap: 87.75px;
+}
+
+.footer-sun-section{
+    width: 50%;
+}
+
+.footer-form{
+    width: 50%;
+}
+
+.footer-title{
+    font-size: 26.25px;
+    font-weight: 700;
+    color: #181818;
+}
+.footer-description{
+    font-size: 12px;
+    font-weight: 400;
+    color: #474747;
+}
+
