@@ -24,6 +24,10 @@
     color: #FD6E0A;
 }
 
+.bg-color{
+    background-color: #FFF8F3;
+}
+
 .dark-1{
     color: #181818;
 }
@@ -129,52 +133,37 @@ nav a{
     margin: 62.25px 131.25px 58.5px 0;
 }
 
-/* main style */
-main{
-    max-width: 855px;
-    margin: 0 auto;
-    margin-top: 97.5px;
-    background-color: #FFF8F3;
-}
+/* main tag style */
 
-/* about style */
-
-.about-title{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+/* about section */
+.about-section{
+    margin: 97.5px 172.5px;
+    border-radius: 8px;
 }
-.about-description{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    
-}
-
-.about-br{
-    border-bottom: 1px solid black;
-    background-color: #FFFFFF;
-}
-/* border style */
 
 .about{
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 98.25px 117.5px;
-    align-items: center;
-
+    text-align: center;
+    padding: 98.25px 117.375px 0 117.375px;
 }
-
 .about-items{
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    padding: 0 117.375px 98.25px 117.375px;
 }
 
 .item{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     color: #757575;
 }
+
 .item-description{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
-    color: #757575;
+    color: #474747;
 }
+/* about section done */
+
+/* skills section */
+
